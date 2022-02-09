@@ -35,7 +35,7 @@ msgstr ""
 "Project-Id-Version: GnuCash 4.9-pre1\n"
 "Report-Msgid-Bugs-To: https://bugs.gnucash.org/enter_bug.cgi?"
 "product=GnuCash&component=Translations\n"
-"POT-Creation-Date: 2022-02-09 11:20+0100\n"
+"POT-Creation-Date: 2022-02-10 13:54+0100\n"
 "PO-Revision-Date: 2022-01-08 12:55+0000\n"
 "Last-Translator: Christian Wehling <christian.wehling@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/gnucash/gnucash/"
@@ -26720,16 +26720,14 @@ msgstr "Die maximale Anzahl gestapelte Balken im Diagramm."
 
 #: gnucash/report/reports/standard/category-barchart.scm:189
 #: gnucash/report/reports/standard/category-barchart.scm:263
-#, fuzzy
-#| msgid "Show prices"
-msgid "Show ratios"
-msgstr "Kurse anzeigen"
+msgid "Replace amounts with percentage ratios."
+msgstr "Beträge mit prozentualen Verhältnissen ersetzen."
 
 #: gnucash/report/reports/standard/category-barchart.scm:190
-#, fuzzy
-#| msgid "Display the transaction amount?"
-msgid "Display ratios instead of amounts."
-msgstr "Anzeigen des Buchungsbetrags?"
+msgid ""
+"Display percentage contribution of each account to the Grand Total instead "
+"of amounts."
+msgstr "Anzeige der prozentualen Anteile von jedem Konto am Gesamtbetrag."
 
 #: gnucash/report/reports/standard/category-barchart.scm:293
 msgid "Invalid dates"
@@ -30926,6 +30924,12 @@ msgstr "Buchung ungültig gemacht"
 #: libgnucash/tax/us/txf.scm:122
 msgid "No help available."
 msgstr "Keine Hilfe verfügbar."
+
+#~ msgid "Show ratios"
+#~ msgstr "Verhältnisse anzeigen"
+
+#~ msgid "Display ratios instead of amounts."
+#~ msgstr "Zeige Verhältnisse anstatt Beträge."
 
 #~ msgid "Date Reconciled"
 #~ msgstr "Datum Abgeglichen"
